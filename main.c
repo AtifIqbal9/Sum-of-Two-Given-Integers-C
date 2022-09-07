@@ -17,6 +17,9 @@ int main(int argc, char const *argv[]) {
     printf("Enter the second nubmer : ");
     scanf("%d", &secondNumber);
 
+    // Display the sum of both.
+    printf("%d\n", sum(firstNumber, secondNumber));
+
     return 0;
 }
 
