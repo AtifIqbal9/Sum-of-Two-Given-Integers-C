@@ -10,15 +10,19 @@ int sum(int firstNumber, int secondNumber) {
 
 int main(int argc, char const *argv[]) {
     
-    // Take Two Integers.
-    int firstNumber, secondNumber;
-    printf("Enter the first nubmer : ");
-    scanf("%d", &firstNumber);
-    printf("Enter the second nubmer : ");
-    scanf("%d", &secondNumber);
+    while (1) {
 
-    // Display the sum of both.
-    printf("%d\n", sum(firstNumber, secondNumber));
+        // Take Two Integers.
+        int firstNumber, secondNumber;
+        printf("Enter the first nubmer : ");
+        scanf("%d", &firstNumber);
+        printf("Enter the second nubmer : ");
+        scanf("%d", &secondNumber);
+
+        // Display the sum of both.
+        printf("%d\n", sum(firstNumber, secondNumber));
+
+    }
 
     return 0;
 }
